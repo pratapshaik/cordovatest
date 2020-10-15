@@ -1,0 +1,44 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "*-Info.plist": {
+        "parents": {
+          "GDConsoleLogger": [
+            {
+              "xml": "<string>GDFilterDetailed</string>",
+              "count": 1
+            }
+          ],
+          "BlackBerryDynamics": [
+            {
+              "xml": "<key>BlackBerryDynamics</key>",
+              "count": 1
+            },
+            {
+              "xml": "<dict><key>CheckEventReceiver</key><false /></dict>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-bbd-base": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-bbd-base": "3.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-bbd-base": {
+    "source": {
+      "type": "local",
+      "path": "/Users/pratapshaik/Desktop/workspace/ReactJS-Workspace/bbsdk7/hello/node_modules/cordova-plugin-bbd-base"
+    },
+    "is_top_level": true,
+    "variables": {
+      "BBDSDKFORIOS": "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GD.framework",
+      "BBDSDKFORANDROID": ""
+    }
+  }
+}

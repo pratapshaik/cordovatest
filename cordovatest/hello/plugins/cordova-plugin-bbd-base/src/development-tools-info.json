@@ -1,0 +1,21 @@
+{
+  "framework": {
+    "name": "Cordova",
+    "bbdSdkForCordovaVersion": "7.0.0.119",
+    "version": "",
+    "common": {
+      "os": "",
+      "node": "",
+      "npm": ""
+    },
+    "plugins": [
+    ],
+    "platforms": [
+    ],
+    "ionic": {
+      "cli": "",
+      "framework": "",
+      "type": ""
+    }
+  }
+}
